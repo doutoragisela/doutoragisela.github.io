@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Gravity;
+  src: url("/assets/fonts/Gravity-Regular.otf") format("opentype");
+}
+
+body {
+  font-family: 'Gravity', serif;
+}
+
+.hero {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+.main-hero-banner {
+  background-image: url('/assets/images/hero1_2.png');
+  background-position: left;
+}
