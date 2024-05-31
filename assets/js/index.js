@@ -30,6 +30,11 @@
         e.preventDefault();
         scrollToAnchor("#contactSection");
       });
+
+      $("#schedule_appointment").click((e) => {
+        e.preventDefault();
+        scrollToAnchor("#contactSection");
+      });
     });
   });
 }(jQuery));
