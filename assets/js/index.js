@@ -16,24 +16,9 @@
         location.href = "https://wa.me/551138490543";
       });
 
-      $(".about-button").click((e) => {
-        e.preventDefault();
-        scrollToAnchor("#aboutSection");
-      });
-
-      $(".gallery-button").click((e) => {
-        e.preventDefault();
-        scrollToAnchor("#gallerySection");
-      });
-
-      $(".contact-button").click((e) => {
-        e.preventDefault();
-        scrollToAnchor("#contactSection");
-      });
-
       $("#schedule_appointment").click((e) => {
         e.preventDefault();
-        scrollToAnchor("#contactSection");
+        window.location.href = "/contato";
       });
     });
   });

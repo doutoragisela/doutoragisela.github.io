@@ -24,6 +24,26 @@ body {
   background-position: left;
 }
 
+.main-hero-banner-sobre {
+  background-image: url('/assets/images/hero2_2.webp');
+  background-position: left;
+}
+
+.main-hero-banner-formacao {
+  background-image: url('/assets/images/hero2_2.webp');
+  background-position: left;
+}
+
+.main-hero-banner-pratica {
+  background-image: url('/assets/images/hero2_2.webp');
+  background-position: left;
+}
+
+.main-hero-banner-contato {
+  background-image: url('/assets/images/hero2_2.webp');
+  background-position: left;
+}
+
 .btn-primary {
   background-color: #407A7A !important;
 }
